@@ -26,4 +26,5 @@ console.log(undefined <= 0); //? false because undefined is not less than or equ
 // =
 //* assignment operator assigns a value to a variable
 
-console.log("2" === 2);
+console.log("2" === 2);//? false because "2" is a string and 2 is a number
+//* console.log("2" == 2); //? true because "2" is converted to number 2
